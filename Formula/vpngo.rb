@@ -1,8 +1,8 @@
 class Vpngo < Formula
   desc "Route selected applications through WireGuard VPN profiles"
   homepage "https://github.com/GustavoHSCruz/VPNGo"
-  url "https://github.com/GustavoHSCruz/VPNGo/releases/download/v0.8.0/vpngo-0.8.0-macos.tar.gz"
-  sha256 "e16bb188f71cb050d2825e1dc8d49bee648318b6f044809dea768de53db69a20"
+  url "https://github.com/GustavoHSCruz/VPNGo/releases/download/v0.8.1/vpngo-0.8.1-macos.tar.gz"
+  sha256 "9c7a05689f34644a75c2c408be1dd75919d3adb2024389dca8a5937f9fcca115"
   license "Apache-2.0"
 
   depends_on "mihomo"
@@ -18,7 +18,7 @@ class Vpngo < Formula
       vpngo uses the python3 that comes with Apple's command line tools.
       If `python3 --version` asks to install them, accept.
 
-      Step-by-step guide: https://github.com/GustavoHSCruz/VPNGo/blob/v0.8.0/docs/HOWTO.md#4-macos
+      Step-by-step guide: https://github.com/GustavoHSCruz/VPNGo/blob/v0.8.1/docs/HOWTO.md#4-macos
     EOS
   end
 
